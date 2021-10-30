@@ -19,14 +19,14 @@ const AddService = () => {
     }
 
     return (
-        <div className="add-service p-5  bg-warning">
-            <h1>Please Add a Service</h1>
+        <div className="add-service p-5">
+            <h1 className="fw-bold text-white my-4">Please Add a Service</h1>
             <form className="" onSubmit={handleSubmit(onSubmit)}>
-                <input {...register("name", { required: true, maxLength: 20 })} placeholder="Name" />
-                <textarea {...register("description")} placeholder="Description" />
-                <input type="number" {...register("visit")} placeholder="price" />
-                <input {...register("img")} placeholder="image Url" />
-                <input type="submit" />
+                <input className="form-ss" {...register("name", { required: true, maxLength: 20 })} placeholder="Enter a Name" />
+                <textarea className="form-ss" {...register("description")} placeholder="Description" />
+                <input className="form-ss" type="number" {...register("visit")} placeholder="Price" />
+                <input className="form-ss" {...register("img")} placeholder="Image-Url" />
+                <input className="btn btn-dark" type="submit" value="Add Service" />
             </form>
 
         </div>

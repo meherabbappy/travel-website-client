@@ -32,15 +32,15 @@ const Allorders = () => {
     return (
         <div>
             <div className="container pb-5">
-                <h1 className="p-2 fw-bold bg-secondary text-white mt-4">All Orders</h1>
+                <h2 className="p-2 fw-bold bg-dark text-white mt-4">All Orders</h2>
                 {/* Pass the data to another component using map  */}
 
                 <Table striped bordered hover size="sm" responsive>
                     <thead>
                         <tr>
                             <th>Order Id</th>
-                            <th>MAIL</th>
-                            <th>Cost</th>
+                            <th>Address</th>
+                            <th>Status</th>
                             <th>Action</th>
                         </tr>
                     </thead>

@@ -37,7 +37,7 @@ const Myorders = () => {
 
     const handelAcceptOrder = id => {
         console.log(id);
-        const proceed = window.confirm('Are you sure, you want to Accept order?');
+        const proceed = window.confirm('Are you sure, You want to Accept Order?');
         if (proceed) {
             const url = `http://localhost:5000/orders/${id}`;
             fetch(url, {
@@ -57,7 +57,7 @@ const Myorders = () => {
     return (
         <div>
             <div className="container pb-5">
-                <h1 className="p-2 fw-bold bg-secondary text-white mt-4">My Orders</h1>
+                <h2 className="p-2 fw-bold bg-dark text-white mt-4">My Orders</h2>
                 {/* Pass the data to another component using map  */}
 
                 <Table striped bordered hover size="sm" responsive>

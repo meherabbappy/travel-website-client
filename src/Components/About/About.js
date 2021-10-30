@@ -8,10 +8,10 @@ const About = () => {
 
       <div className="row">
         <div className="col-lg-6 col-sm-12">
-          <img className="w-100" src="https://blog.theclymb.com/wp-content/uploads/2014/11/Myanmar.jpg" alt="" />
+          <img className="w-100" src="https://img.freepik.com/free-vector/road-trip-moving-car-road-summer-landscape-background-countryside-adventure-cartoon-illustration_80590-7156.jpg?size=626&ext=jpg" alt="" />
         </div>
         <div className="col-lg-6 col-sm-12">
-          <h1>ADVENTURE TRAVEL?</h1>
+          <h1 className="fw-bold">ADVENTURE TRAVEL?</h1>
           <p className="text-danger">PROFESSIONAL TOUR</p>
 
           <Accordion defaultActiveKey="0">
@@ -48,12 +48,12 @@ const About = () => {
       {/* service section  */}
 
       <div className="container1 my-5">
-        <h1 className="text-center p-4 text-dark">Travel Guide</h1>
+        <h1 className="text-center fw-bold p-4 text-dark">Travel Alert</h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card  shadow p-2 mb-5 bg-body rounded">
-              <img src="https://www.adventure.travel/images/values/community.svg" class="card-img-top" alt="..." />
+              <img src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg" class="card-img-top" alt="..." />
               <div class="card-body1">
                 <div class="card-body">
                   <div className="about-details">
@@ -65,7 +65,7 @@ const About = () => {
           </div>
           <div class="col">
             <div class="card  shadow p-2 mb-5 bg-body rounded">
-              <img src="https://www.adventure.travel/images/values/security.svg" class="card-img-top" alt="..." />
+              <img src="https://www.tripit.com/web/blog/wp-content/uploads/sites/2/2015/07/Screen-Shot-2015-07-15-at-8.50.50-AM.png" class="card-img-top" alt="..." />
               <div class="card-body1">
                 <div class="card-body">
                   <div className="about-details">
@@ -77,7 +77,7 @@ const About = () => {
           </div>
           <div class="col">
             <div class="card  shadow p-2 mb-5 bg-body rounded">
-              <img src="https://www.adventure.travel/images/values/wild-places.svg" class="card-img-top" alt="..." />
+              <img src="https://thumbs.dreamstime.com/b/travel-world-26385259.jpg" class="card-img-top" alt="..." />
               <div class="card-body1">
                 <div class="card-body">
                   <div className="about-details">
@@ -90,7 +90,7 @@ const About = () => {
 
           <div class="col">
             <div class="card  shadow p-2 mb-5 bg-body rounded">
-              <img src="https://www.adventure.travel/images/values/animals.svg" class="card-img-top" alt="..." />
+              <img src="https://lh3.googleusercontent.com/proxy/GHEHivFwz69ladenmlLHVyE0bU3OoVgwQCZpFXP3UBJVig71B595oPOtzoDYnC1WbBjk0KVo-rZfcgmsefIe-wkkjKrVwyyznVRXUc6hmkdPr4LNQqentAH5kNuM5Q8In-4UCEVFJmYOgD56-IPoZaaGTiuSag" class="card-img-top" alt="..." />
               <div class="card-body1">
                 <div class="card-body">
                   <div className="about-details">
@@ -102,7 +102,7 @@ const About = () => {
           </div>
           <div class="col">
             <div class="card  shadow p-2 mb-5 bg-body rounded">
-              <img src="https://www.adventure.travel/images/values/children.svg" class="card-img-top" alt="..." />
+              <img src="https://www.thetinybook.com/wp-content/uploads/2016/04/kids-travel-2.jpg" class="card-img-top" alt="..." />
               <div class="card-body1">
                 <div class="card-body">
                   <div className="about-details">
@@ -114,7 +114,7 @@ const About = () => {
           </div>
           <div class="col">
             <div class="card  shadow p-2 mb-5 bg-body rounded">
-              <img src="https://www.adventure.travel/images/values/local.svg" class="card-img-top" alt="..." />
+              <img src="http://cdn2.livelongandtravel.com/1.jpg" class="card-img-top" alt="..." />
               <div class="card-body1">
                 <div class="card-body">
                   <div className="about-details">

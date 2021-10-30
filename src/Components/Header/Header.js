@@ -11,8 +11,8 @@ const Header = () => {
     const { user, logOut } = useAuth()
     return (
 
-        <div className="header-main">
-            <Navbar collapseOnSelect expand="lg" bg="dark" sticky="top" variant="dark">
+        <div className="header-main sticky-top">
+            <Navbar collapseOnSelect expand="lg" bg="dark" className="sticky-top" variant="dark">
                 <Container>
                     <Navbar.Brand className="fw-bold" href="/home"><img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Trip.com_logo.svg/2560px-Trip.com_logo.svg.png" alt="" /></Navbar.Brand>
 

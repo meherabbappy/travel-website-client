@@ -41,8 +41,7 @@ const Banner = () => {
               Discover The World
             </h1>
             <p className="p-title">
-              teavel the world, experience the greatness, it's the best gift given
-              by the nature.
+              Adventure travel is a type of niche tourism, involving exploration or travel with a certain degree of risk.
             </p>
             <Button className="btn-visit p-2">Visite Places</Button>
           </div>
