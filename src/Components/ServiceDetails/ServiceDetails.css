@@ -1,0 +1,9 @@
+.ser-details{
+    /* background-color: rgb(5, 112, 116); */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("https://www.michigan.org/sites/default/files/styles/16_9_medium/public/content-slideshow/BeachParty_009_0.jpg?itok=DhvLYDyN&timestamp=1520018566");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bb{
+    background-color: rgb(202, 200, 200);
+}
