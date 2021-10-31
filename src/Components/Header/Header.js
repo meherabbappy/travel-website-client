@@ -23,9 +23,15 @@ const Header = () => {
                             {/* <Link to="/home" id="services">Service</Link> */}
                             <Link className="head-items" to="/about">About</Link>
                             <Link className="head-items" to="/contact">Contact</Link>
-                            <Link className="head-items" to="/addservice">Add Service</Link>
-                            <Link className="head-items" to="/myOrder">My Order</Link>
-                            <Link className="head-items" to="/allOrder">All Order</Link>
+                            {user.email &&
+                                <Link className="head-items" to="/addservice">Add Service</Link>
+                            }
+                            {user.email &&
+                                <Link className="head-items" to="/myOrder">My Order</Link>
+                            }
+                            {
+                                user.email &&
+                                <Link className="head-items" to="/allOrder">All Order</Link>}
 
                         </Nav>
 
