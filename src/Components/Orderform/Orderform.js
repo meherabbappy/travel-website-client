@@ -18,7 +18,7 @@ const Orderform = () => {
 
         //console.log(data);
 
-        axios.post('http://localhost:5000/orders', data)
+        axios.post('https://gentle-beach-61220.herokuapp.com/orders', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert("Added Succesfully")
@@ -40,7 +40,7 @@ const Orderform = () => {
                 <br />
 
                 {errors.exampleRequired && <span>This field is required</span>}
-                <input className="bg-danger m-2 Order text-white fw-bild" value="Order" type="submit" />
+                <input className=" btn btn-dark m-2 Order text-white fw-bild" value="Place Order" type="submit" />
             </form>
         </div>
     );

@@ -9,7 +9,7 @@ const Extra2 = () => {
             <div className="testimonials-clean">
                 <div className="container pb-4">
                     <div className="intro">
-                        <h2 className="text-center">Testimonials </h2>
+                        <h2 className="text-center">Our Feedbacks </h2>
                         <p className="text-center">The pauses can be acts of discovery, exploration and fun synonymous with travel as well. We’ve lived in 5 countries but have traveled through over 50. I’m not a big counter, I count the memories, the experiences and the friendships more.</p>
                     </div>
                     <div className="row people">
@@ -33,7 +33,7 @@ const Extra2 = () => {
                         </div>
                         <div className="col-md-6 col-lg-4 item">
                             <div className="box">
-                                <p className="description">The best way to do this is to live and work in expensive countries. Better to spend the local currency and save your own money for other adventures. </p>
+                                <p className="description">The best way to do this is to live and work in expensive countries. Better to spend the local currency and save your own money for. </p>
                             </div>
                             <div className="author"><img className="rounded-circle" src="https://image.freepik.com/free-photo/handsome-man-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair-closeup-portrait_186202-8545.jpg" />
                                 <h5 className="name text-white">Emily Clark</h5>

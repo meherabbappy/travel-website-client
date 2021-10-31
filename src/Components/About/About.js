@@ -90,7 +90,7 @@ const About = () => {
 
           <div class="col">
             <div class="card  shadow p-2 mb-5 bg-body rounded">
-              <img src="https://lh3.googleusercontent.com/proxy/GHEHivFwz69ladenmlLHVyE0bU3OoVgwQCZpFXP3UBJVig71B595oPOtzoDYnC1WbBjk0KVo-rZfcgmsefIe-wkkjKrVwyyznVRXUc6hmkdPr4LNQqentAH5kNuM5Q8In-4UCEVFJmYOgD56-IPoZaaGTiuSag" class="card-img-top" alt="..." />
+              <img src="https://media.phillyvoice.com/media/images/iStock_000049194516_Large.width-696.jpg" class="card-img-top" alt="..." />
               <div class="card-body1">
                 <div class="card-body">
                   <div className="about-details">

@@ -18,7 +18,7 @@ const ServiceDetails = () => {
     const onSubmit = data => console.log(data);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://gentle-beach-61220.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data))
 
@@ -41,9 +41,10 @@ const ServiceDetails = () => {
                                 <h3 className="card-title">Name: {service.name}</h3>
 
                                 <h4 className="card-text"><b>Visiting Fee: </b> <i> {service.visit}</i></h4>
-                                <p className="card-text"> {service.description}</p>
-                                <Link to="/home"><button className="btn btn-primary">Go Home</button></Link>
+                                <p className="card-text"> {service.description?.slice(0, 400)}</p>
+
                                 <Orderform></Orderform>
+                                <Link to="/home"><button className="btn btn-dark">Back Home</button></Link>
 
                             </div>
 
@@ -51,21 +52,6 @@ const ServiceDetails = () => {
                     </div>
                 </div>
             </div>
-
-            {/* place order */}
-            {/* 
-            <div className="my-4">
-                <form className="p-2" onSubmit={handleSubmit(onSubmit)}>
-                    <input className="mb-2 p-2" {...register("Address", { required: true, maxLength: 20 })} placeholder="Address" />
-                    <br />
-                    <input className="p-2" type="number" {...register("phone", { min: 11, max: 11 })} placeholder="Phone" value="Phone" />
-                    <br />
-                    <input className="btn btn-dark my-2" type="submit" value="Place Order" />
-                </form>
-            </div> */}
-
-
-
 
 
         </div>

@@ -15,9 +15,9 @@ const Service = ({ service }) => {
 
 
                         <div className="card-body">
-                            <h3 className="card-title">Name: {name}</h3>
-                            <h5 className="card-text">Visiting Fee: {visit}</h5>
-                            <p className="card-text">Details: {description.slice(0, 120)}</p>
+                            <h3 className="card-title fw-bold">Name: {name}</h3>
+                            <h5 className="card-text fw-bold">Visiting Fee: {visit}</h5>
+                            <p className="card-text">{description.slice(0, 125)}</p>
                         </div>
 
 

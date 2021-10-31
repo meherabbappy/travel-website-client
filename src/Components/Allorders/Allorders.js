@@ -6,16 +6,16 @@ const Allorders = () => {
     const [allorders, setAllorders] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/orders')
+        fetch('https://gentle-beach-61220.herokuapp.com/orders')
             .then(res => res.json()
                 .then(data => setAllorders(data)))
-    }, [])
+    }, [allorders])
 
     const handelDeleteOrder = id => {
         console.log(id);
         const proceed = window.confirm('Are you sure, you want to delete order?');
         if (proceed) {
-            const url = `http://localhost:5000/orders/${id}`;
+            const url = `https://gentle-beach-61220.herokuapp.com/orders/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
@@ -29,6 +29,28 @@ const Allorders = () => {
                 });
         }
     }
+    //  All oder 
+
+    const handelAcceptOrder = id => {
+        const proceed = window.confirm('Are you sure, you want to Accept order?');
+        if (proceed) {
+            const url = `http://localhost:5000/orders/${id}`;
+            fetch(url, {
+                method: 'PUT',
+                headers: {
+                    'content-type': 'application/json'
+                },
+            })
+                .then(res => res.json())
+                .then(data => {
+                    alert('Your Order Accepted');
+                    setAllorders(allorders);
+                });
+        }
+    }
+
+
+
     return (
         <div>
             <div className="container pb-5">
