@@ -1,6 +1,6 @@
-< h1 > Live Site link: https://traveltrip-c45fd.web.app</h1>
-<h2>Github Front-end link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-meherabbappy</h2>
-<h2> Github Back-end link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-meherabbappy</h2>
+<h1> Live Site link: https://traveltrip-c45fd.web.app</h1>
+<h2>Github Client-Site link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-meherabbappy</h2>
+<h2> Github Server-Site link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-meherabbappy</h2>
 
 <h1>Name Of Project: Travel Trip</h1>
 <h2>I am Using here: HTML,CSS,Bootstrap,React,MongoDB,Firebase,JS,Express,Node JS</h2>
