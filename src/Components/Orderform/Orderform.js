@@ -21,7 +21,7 @@ const Orderform = () => {
         axios.post('https://gentle-beach-61220.herokuapp.com/orders', data)
             .then(res => {
                 if (res.data.insertedId) {
-                    alert("Added Succesfully")
+                    alert("Added Successfully")
                     reset();
                 }
             })
