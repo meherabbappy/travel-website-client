@@ -16,8 +16,9 @@ const Extra2 = () => {
                         <div className="col-md-6 col-lg-4 item">
                             <div className="box">
                                 <p className="description">A life of full time travel is not as difficult as you may think. There are many clever strategies you can employ to travel around the world </p>
+
                             </div>
-                            <div className="author"><img className="rounded-circle" src="https://thumbs.dreamstime.com/b/handsome-man-black-suit-white-shirt-posing-studio-attractive-guy-fashion-hairstyle-confident-man-short-beard-125019349.jpg" />
+                            <div className="author"><img className="rounded-circle" src="https://thumbs.dreamstime.com/b/handsome-man-beautiful-face-beard-white-background-high-resolution-handsome-man-beautiful-face-beard-115656040.jpg" />
                                 <h5 className="name text-white">Ben Johnson</h5>
                                 <p className="title text-white">CEO of Company Inc.</p>
                             </div>
